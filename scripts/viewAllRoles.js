@@ -4,8 +4,12 @@ const db = require('../config/connection');
 
 // Refactored for ASYNC AWAIT
 async function viewAllRoles() {
-    const allRoles = await db.promise().query('SELECT * FROM roles')
-    return allRoles
+    try {
+        const allRoles = await db.promise().query('SELECT * FROM roles')
+        return allRoles
+    } catch (err) {
+        console.log(`Oh no! Something went wrong...`, err)
+    }
 }
 
 

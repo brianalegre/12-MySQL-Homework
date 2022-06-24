@@ -1,0 +1,56 @@
+VIEW ALL DEPTS
+
+VIEW ALL ROLES
+
+VIEW ALL EMPLOYEES
+
+ADD DEPT
+  - Cleaning
+  - VIEW ALL DEPTS
+
+ADD ROLE
+  - Wash Tech
+  - 50000
+  - VIEW ALL ROLES
+
+ADD EMPLOYEE
+  - Brian
+  - Alegre
+  - Wash Tech
+  - John Doe
+  - VIEW ALL EMPLOYEES
+
+UPDATE EMPLOYEE'S ROLE
+  - Brian Alegre
+  - Lawyer
+  - VIEW ALL EMPLOYEES
+
+UPDATE EMPLOYEE's MANAGER
+  - Brian Alegre
+  - Sarah Lourd
+  - VIEW ALL EMPLOYEES
+
+VIEW EMPLOYEES BY MANAGER
+
+VIEW EMPLOYEES BY DEPT
+
+DELETE DEPARTMENTS
+  - Cleaning
+  - VIEW ALL DEPTS
+
+DELETE ROLE
+  - Accountant
+  - VIEW ALL ROLES
+
+DELETE EMPLOYEE
+  - John Doe
+  - VIEW ALL EMPLOYEES
+
+VIEW DEPARTMENT SALARY
+  - LEGAL
+  - 
+
+
+
+
+
